@@ -1,0 +1,12 @@
+---
+- name: AAP Test Playbook
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Test connectivity
+      ping:
+
+    - name: Print a test message
+      debug:
+        msg: "AAP is working successfully!"
