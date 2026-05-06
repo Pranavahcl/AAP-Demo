@@ -12,4 +12,4 @@ jobs:
       - name: Run Playbook
         uses: dawidd6/action-ansible-playbook@v2
         with:
-          playbook: cicd.yaml
+          playbook: cicd.yml
