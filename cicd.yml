@@ -4,5 +4,5 @@
   tasks:
   - name: Installing vsftpd Package
     copy:
-      content: "hello CICD"
+      content: "hello CICD updated work flow"
       dest: /tmp/a.txt
