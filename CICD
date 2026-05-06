@@ -1,0 +1,8 @@
+---
+- name: Learning Playbook Writing
+  hosts: localhost
+  tasks:
+  - name: Installing vsftpd Package
+    copy:
+      content: "hello CICD"
+      dest: /tmp/a.txt
